@@ -1,0 +1,5 @@
+levels = int(input())
+lx = input().split()
+ly = input().split()
+total = set(lx[1:] + ly[1:])
+print("I become the guy." if len(total) == levels else "Oh, my keyboard!")
