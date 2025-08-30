@@ -15,12 +15,12 @@
 
 # print(minima)
 
-n, l = map(int, input().split())
+n, lo = map(int, input().split())
 a = list(map(int, input().split()))
 a.sort()
 
 inicio = a[0]
-final = l - a[-1]
+final = lo - a[-1]
 
 max_gap = 0
 for i in range(1, n):
